@@ -39,7 +39,7 @@ $(function() {
                     email: email,
                     message: message},
         
-        cache: false,
+        cache: true,
         success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
@@ -52,6 +52,7 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
+        cache: false,
         error: function() {
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
