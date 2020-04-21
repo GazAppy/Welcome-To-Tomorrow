@@ -19,7 +19,7 @@ $(function() {
       }
       
       $.ajax({
-        url: "mail/contact_me.php",
+        url: "https://formspree.io/mpzjgvdq",
         type: "POST",
         data: {
           name: name,
