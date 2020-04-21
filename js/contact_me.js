@@ -18,7 +18,17 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
      
-   
+   <form id="contact_form"
+  action="https://formspree.io/mpzjgvdq"
+  method="POST"
+>
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="my-form-button">Submit</button>
+  <p id="my-form-status"></p>
+</form>
           $.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
