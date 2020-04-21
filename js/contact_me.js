@@ -24,10 +24,10 @@ $(function() {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message;
+                    message: message
                 },            
-        
-        success: function() {
+        cache: true,
+        cache: false, success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
