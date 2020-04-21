@@ -21,7 +21,7 @@ $(function() {
      <form
   action="https://formspree.io/mpzjgvdq"
   method="POST"
-  enctype="multipart/form-data"
+  enctype="mail/contact_me.php"
 >
   <label>
     Your email:
