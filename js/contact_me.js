@@ -19,7 +19,7 @@ $(function() {
       }
       
       $.ajax({
-        url: "welcometotomorrow@protonmail.com",
+        url: "mail/contact_me.php /welcometotomorrow@protonmail.com",
         type: "POST",
         data: {
           name: name,
