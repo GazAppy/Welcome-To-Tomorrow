@@ -33,6 +33,7 @@ $(function() {
 
   <button type="submit">Send</button>
 </form>
+      
       $.ajax({
         url: "https://formspree.io/mpzjgvdq",
         type: "POST",
