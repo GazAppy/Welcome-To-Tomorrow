@@ -18,11 +18,23 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
      
-      <form
+     <form
   action="https://formspree.io/mpzjgvdq"
   method="POST"
-  enctype="multipart/form-data">
-    </form>
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
+
+  <button type="submit">Send</button>
+</form>
+      
       
       $.ajax({
         url: "https://formspree.io/mpzjgvdq",
