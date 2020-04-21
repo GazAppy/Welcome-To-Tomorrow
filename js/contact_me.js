@@ -27,7 +27,7 @@ $(function() {
                     message: message
                 },            
         cache: true,
-        success: function() {
+        success: function($form) {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
