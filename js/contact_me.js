@@ -19,7 +19,7 @@ $(function() {
       }
      
    
-<form id="mail/contact_me.php"
+<form id="_POST"
   action="https://formspree.io/mpzjgvdq"
   method="POST"
 >
