@@ -30,7 +30,7 @@ $(function() {
   <p id="my-form-status"></p>
 </form>
           $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://formspree.io/mpzjgvdq",
                 type: "POST",
                 data: {
                     name: name,
