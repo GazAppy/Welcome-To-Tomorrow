@@ -18,7 +18,7 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
      
-   <form id="contact_form"
+   <form id="contactForm"
   action="https://formspree.io/mpzjgvdq"
   method="POST"
 >
