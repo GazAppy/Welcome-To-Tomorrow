@@ -19,24 +19,25 @@ $(function() {
       }
      
    
-<form
-  action="https://formspree.io/mpzjgvdq"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+import React from "react";
 
-  <!-- your other form fields go here -->
+export default class MyForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: ""
+    };
+  }
 
-  <button type="submit">Send</button>
-</form>
-      
+  render() {
+    const { status } = this.state;
+    return (
+      <form
+        onSubmit={this.submitForm}
+        action="https://formspree.io/mpzjgvdq"
+        method="POST"
+      >
         
         cache: false,
         success: function() {
