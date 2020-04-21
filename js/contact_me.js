@@ -17,8 +17,12 @@ $(function() {
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
-     
-   
+      <form action="https://formspree.io/mpzjgvdq" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form
+      
           $.ajax({
                 url: "https://formspree.io/mpzjgvdq",
                 type: "POST",
