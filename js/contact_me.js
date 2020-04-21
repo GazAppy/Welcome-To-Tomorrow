@@ -18,19 +18,21 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
      
-     <form
+   
+<form
   action="https://formspree.io/mpzjgvdq"
   method="POST"
-  enctype="mail/contact_me.php"
 >
   <label>
     Your email:
     <input type="text" name="_replyto">
   </label>
   <label>
-    Your file:
-    <input type="file" name="upload">
+    Your message:
+    <textarea name="message"></textarea>
   </label>
+
+  <!-- your other form fields go here -->
 
   <button type="submit">Send</button>
 </form>
