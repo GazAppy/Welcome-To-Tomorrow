@@ -20,6 +20,17 @@ $(function() {
       
       
           $.ajax({
+            <form id="my-form"
+  action="https://formspree.io/mpzjgvdq"
+  method="POST"
+>
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="my-form-button">Submit</button>
+  <p id="my-form-status"></p>
+</form>
                 url: "https://formspree.io/mpzjgvdq",
                 type: "POST",
                 data: {
