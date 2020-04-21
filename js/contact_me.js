@@ -19,25 +19,14 @@ $(function() {
       }
      
    
-import React from "react";
-
-export default class MyForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.submitForm = this.submitForm.bind(this);
-    this.state = {
-      status: ""
-    };
-  }
-
-  render() {
-    const { status } = this.state;
-    return (
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/mpzjgvdq"
-        method="POST"
-      >
+          $.ajax({
+                url: "././mail/contact_me.php",
+                type: "POST",
+                data: {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
         
         cache: false,
         success: function() {
