@@ -20,18 +20,8 @@ $(function() {
       <form
   action="https://formspree.io/mpzjgvdq"
   method="POST"
-  enctype="multipart/form-data"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your file:
-    <input type="file" name="upload">
-  </label>
-
-  <button type="submit">Send</button>
+  enctype="multipart/form-data">
+ 
 </form>
       
       $.ajax({
@@ -44,7 +34,7 @@ $(function() {
           message: message
         },
         
-        cache: true,
+        cache: false,
         success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
