@@ -29,13 +29,7 @@ $(function() {
   <button id="my-form-button">Submit</button>
   <p id="my-form-status"></p>
 </form>
-                url: "https://formspree.io/mpzjgvdq",
-                type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                
                 },
             
         cache: false,
