@@ -17,8 +17,7 @@ $(function() {
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
-      $this = $("welcometotomorrow@protonmail.com");
-      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      
       $.ajax({
         url: "welcometotomorrow@protonmail.com",
         type: "POST",
