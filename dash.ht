@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Welcome To Tomorrow</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Start Learning</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/dash main.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>What is Dash?</h1>
+            <span class="subheading"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+      <span class="subheading">Dash (DASH)</span>
+        
+        <p>Dash is an open source peer-to-peer cryptocurrency with a strong focus on the payments industry. Dash offers a form of money that is portable, inexpensive, divisible and fast. It can be spent securely both online and in person with only minimal transaction fees. Based on the Bitcoin project, Dash aims to be the most user-friendly and scalable payments system in the world. In addition to Bitcoin’s feature set, Dash currently also offers instant transactions (InstantSend), private transactions (PrivateSend) and operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses for work that adds value to the network. This decentralized governance and budgeting system makes it one of the first ever successful decentralized autonomous organizations (DAO).</p>
+        <p>If you are new to cryptocurrencies, the most important change to understand is that transactions occur directly between two parties without any central authority to facilitate the transaction. This also means that you are responsible for your own security - there is no bank or credit card company to reverse a transaction if your funds are stolen or lost. In this sense, it is similar to cash or gold, but cryptocurrency can be spent locally and internationally with equal ease, if you are confident you are sending funds to the right destination. For these reasons, the Dash documentation has a strong focus on safety and understanding the concepts and features that drive the Dash ecosystem. The videos, links and documentation below can help you get started, or use the table of contents on the left to find a specific topic of interest.</p>
+         
+        
+        
+        <span class="caption text-muted">Click Image to veiw Video on Dash?</span>
+        
+        <a href="https://youtu.be/S0oNO3mbBE8" target="_blank">
+            <img class="img-fluid" src="img/download Dash.jpg" alt="">
+          </a>
+          <p>Dash aims to be the most user-friendly and scalable payments-focused cryptocurrency in the world. The Dash network features instant transaction confirmation, double spend protection, anonymity equal to that of physical cash, a self-governing, self-funding model driven by incentivized full nodes and a clear roadmap for on-chain scaling to up to 400MB blocks using custom-developed open source hardware. While Dash is based on Bitcoin and compatible with many key components of the Bitcoin ecosystem, its two-tier network structure offers significant improvements in transaction speed, anonymity and governance. This section of the documentation describes these and many more key features that set Dash apart in the blockchain economy.The videos, links and documentation collected here can help you get started, or use the table of contents on the left to find a specific topic of interest. New users may be interested in getting started with an appropriate wallet, learning about how to buy Dash and where to spend Dash, learning about safety or joining one of the many Dash community sites.</p>
+          <span class="subheading">Dash School</span>
+          <p>Dash School is a six-part video series produced by Amanda B. Johnson. It explains Dash from a beginner’s level up to descriptions of the more advanced features.</p>
+          
+          <span class="caption text-muted">Click Image to veiw Video on Dash School?</span>
+        
+        <a href="https://youtu.be/e7UwwcCKj4Y" target="_blank">
+            <img class="img-fluid" src="img/download Dash School.png" alt="">
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/garyappleton12" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/invites/contact/?i=150349acbvcro&utm_content=flsi1k0" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/GazAppy" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+             <li class="list-inline-item">
+              <a href="donate.html">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-bitcoin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; welcometotomorrow.world</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
